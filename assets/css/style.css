@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+}
+section {
+  margin-left: 5rem;
+}
+h2 {
+  margin-top: 2rem;
+}
+table {
+  margin-top: 2rem;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 0.25rem 0.25rem;
+  border: 2px solid black;
+}
+.edelMetal div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+}
+
+.singers div {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 40%;
+  gap: 2px;
+}
+.singers p {
+  text-align: left;
+  border: none;
+}
+.singers {
+  width: 800px;
+  border: none;
+}
+p {
+  text-align: center;
+  border: 1px solid black;
+}
+
+button {
+  background-color: white;
+  border: none;
+}
